@@ -1,0 +1,31 @@
+{
+    "original_rows": 100,
+    "original_columns": 5,
+    "duplicate_records": 0,
+    "missing_values": {
+        "feature_1": 0,
+        "feature_2": 0,
+        "feature_3": 0,
+        "feature_4": 0,
+        "feature_5": 0
+    },
+    "has_target_labels": false,
+    "label_validation": "Not applicable: no label column",
+    "baseline": "Not applicable: no target variable",
+    "training_rows": 80,
+    "evaluation_rows": 20,
+    "split_ratio": "80/20",
+    "random_seed": 42,
+    "imputation": "Mean fitted on training data only",
+    "scaling": "StandardScaler fitted on training data only",
+    "engineered_features": [
+        "feature_1_x_feature_2",
+        "feature_1_plus_feature_2",
+        "feature_average"
+    ],
+    "python_version": "3.12.10",
+    "pandas_version": "2.3.3",
+    "numpy_version": "2.5.4",
+    "sklearn_version": "1.9.1",
+    "limitations": "No target labels exist. Predictive accuracy and classification baseline cannot be calculated."
+}
